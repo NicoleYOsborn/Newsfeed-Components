@@ -161,6 +161,7 @@ function makeArticle(articleObj) {
   articleFirstParagraph.textContent = firstParagraph;
   articleSecondParagraph.textContent = secondParagraph;
   articleThirdParagraph.textContent = thirdParagraph;
+  articleExpandButton.textContent = 'See more';
 
   articleExpandButton.addEventListener('click', event => {
     article.classList.toggle('article-open');
